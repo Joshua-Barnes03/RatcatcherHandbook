@@ -11,7 +11,7 @@ const App = function() {
 
   return (
     <Router>
-      <div>
+      <div id="all">
         <nav>
           <ul>
             <li>

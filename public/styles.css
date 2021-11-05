@@ -62,6 +62,21 @@ ul {
   flex-direction: row;
 }
 
+#app {
+	height: 100vh;
+	width: 100vw;
+}
+
+#all {
+	height: 100%;
+	width: 100%;
+}
+
 /*====================
   Resource Tracker
 ====================*/
+
+#resourceTracker {
+	height: 100%;
+	width: 100%;
+}

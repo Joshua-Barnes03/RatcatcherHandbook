@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
 
 const [RESOURCE, START, INPUT, OUTPUT, DAYS, RESULT] = ['NAME', 'START', 'INPUT', 'OUTPUT', 'DAYS', 'RESULT']
 
@@ -37,17 +40,21 @@ const Resource = function({resource}) {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label>Name: </label><span>{name}</span>
-        <label>Starting Value: </label><input type="number" min="0" name={START} value={start} onChange={e => handleChange(e)}></input>
-        <label>Input: </label><input type="number" min="0" name={INPUT} value={input} onChange={e => handleChange(e)}></input>
-        <label>Output: </label><input type="number" min="0" name={OUTPUT} value={output} onChange={e => handleChange(e)}></input>
-        <label>Number of Days: </label><input type="number" min="0" name={DAYS} value={days} onChange={e => handleChange(e)}></input>
-        <input type="submit" value="Calculate"></input>
-        <output name={RESULT} htmlFor={RESOURCE, START, INPUT, OUTPUT, DAYS}>{result}</output>
-      </form>
-    </div>
+    <Box componenet="form" sx={{
+      boxShadow: 1,
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'space-around'
+    }}
+    autoComplete="off">
+      <TextField label="Name:" defaultValue={name} size="small"></TextField>
+      <TextField label="Starting Value:" type="number" size="small" name={START} value={start} onChange={handleChange} />
+      <TextField label="Input:" type="number" min="0" name={INPUT} value={input} onChange={handleChange} size="small" />
+      <TextField label="Output:" type="number" min="0" name={OUTPUT} value={output} onChange={handleChange} size="small" />
+      <TextField label="Number of Days" type="number" min="0" name={DAYS} value={days} onChange={handleChange} size="small" />
+      <Button variant="contained" onClick={handleSubmit}>Calculate</Button>
+      <output name={RESULT} htmlFor={RESOURCE, START, INPUT, OUTPUT, DAYS}>{result}</output>
+    </Box>
   );
 };
 
