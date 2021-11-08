@@ -5,27 +5,28 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { Box, Button, Typography } from '@mui/material';
 import ResourceTracker from './ResourceTracker.jsx';
 
 const App = function() {
 
   return (
     <Router>
-      <div id="all">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/resource-tracker">Resource Tracker</Link>
-            </li>
-          </ul>
-        </nav>
-
+      <Box id="all" sx={{
+        position: 'relative'
+      }}>
+        <Box sx={{
+          height: '100%',
+          width: '10%',
+          position: 'absolute',
+          paddingTop: '10px'
+        }}>
+          <nav>
+            <Button component={Link} to="/" className="linkButton" >Home</Button>
+            <Button component={Link} to="/resource-tracker" className="linkButton">Resource Tracker</Button>
+            <Button component={Link} to="/about" className="linkButton">About</Button>
+          </nav>
+        </Box>
         <Switch>
           <Route path="/about">
             <About />
@@ -37,17 +38,35 @@ const App = function() {
             <Home />
           </Route>
         </Switch>
-      </div>
+      </Box>
     </Router>
   );
 };
 
 function Home() {
-  return <h2>Home</h2>
+  return <Box sx={{
+    width: '100%',
+    height: 'auto',
+    position: 'absolute',
+    display: 'flex',
+    justifyContent: 'center',
+    paddingTop: '10px'
+  }}>
+    <Typography variant="h2">Home</Typography>
+  </Box>
 }
 
 function About() {
-  return <h2>About</h2>
+  return <Box sx={{
+    width: '100%',
+    height: 'auto',
+    position: 'absolute',
+    display: 'flex',
+    justifyContent: 'center',
+    paddingTop: '10px'
+  }}>
+    <Typography variant="h2">About</Typography>
+  </Box>
 }
 
 export default App;
