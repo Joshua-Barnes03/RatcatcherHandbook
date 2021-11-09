@@ -53,8 +53,15 @@ table {
 
 nav {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+	padding-left: 10px;
+	/* box-shadow: 1px 0 5px -5px black; */
+	height: 100%;
+}
+
+nav .linkButton {
+	z-index: 5;
 }
 
 ul {
@@ -62,6 +69,29 @@ ul {
   flex-direction: row;
 }
 
+#app {
+	height: 100vh;
+	width: 100vw;
+}
+
+#all {
+	height: 100%;
+	width: 100%;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
 /*====================
   Resource Tracker
 ====================*/
+
+#resourceTracker {
+	height: 100%;
+	width: 100%;
+}
+
+#trackerArea {
+	padding: 1px;
+}
