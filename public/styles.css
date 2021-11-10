@@ -51,6 +51,13 @@ table {
       General
 ====================*/
 
+:root {
+	--pewter: #8D9797;
+	--white: #E5E8E8;
+	--gunmetal: #4E545C;
+	--black: #000401;
+}
+
 nav {
   display: flex;
   flex-direction: column;
