@@ -15,7 +15,9 @@ const App = function() {
       <Box id="all" sx={{
         position: 'relative',
         backgroundColor: 'var(--white)',
-        overflow: 'hidden'
+        overflow: 'hidden',
+        height: '100%',
+        width: '100%',
       }}>
         <Box sx={{
           height: '100%',

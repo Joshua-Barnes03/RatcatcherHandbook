@@ -3,7 +3,7 @@ import Resource from './Resource.jsx';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import { Typography } from '@mui/material';
+import { Typography, Alert } from '@mui/material';
 
 const ResourceTracker = function() {
 
@@ -16,19 +16,24 @@ const ResourceTracker = function() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    var temp = resources.slice();
-    temp.push(
-      {
-        name: newResource,
-        start: 0,
-        input: 0,
-        output: 0,
-        days: 0,
-        result: 0
-      }
-    );
-    setResources(temp);
-    setNewResource('')
+    if (resources.length < 10) {
+      var temp = resources.slice();
+      temp.push(
+        {
+          name: newResource,
+          start: 0,
+          input: 0,
+          output: 0,
+          days: 0,
+          result: 0
+        }
+      );
+      setResources(temp);
+      setNewResource('')
+    } else {
+      //TODO: use a modal for this instead
+      alert(`Please delete a resource before attempting to add another one.`)
+    }
   }
 
   useEffect(() => {
@@ -63,19 +68,22 @@ const ResourceTracker = function() {
         justifyContent: 'center',
         alignContent: 'center',
         width: '60vw',
-        height: 'auto',
+        height: '100%',
         textAlign: 'center',
         paddingTop: '10px'
       }}>
-        <Box sx={{
+        <Box sx={{display: 'flex',
+        flexDirection: 'column',
+        justifyingContent: 'center',
+        alignContent: 'center'
         }}>
-          <div id="trackerArea">
+          <Box id="trackerArea">
             {resources.map((resource, i) => {
               return (
                 <Resource resource={resource} key={i} deleteResource={deleteResource} i={i} trackResource={trackResource} />
               )
             })}
-          </div>
+          </Box>
           <Box component="form" autoComplete="off" onSubmit={handleSubmit}>
             <TextField required label="Add New Resource" placeholder="Dogs" size="small" onChange={handleResourceSubmit} value={newResource} name="NEWRESOURCE" sx={{marginRight: '5px', borderColor: 'var(--black)', color: 'var(--black)'}}></TextField>
             <Button variant='outlined' type="submit" size="large" sx={{marginLeft: '5px', borderColor: 'var(--black)', color: 'var(--black)'}}>Create</Button>
