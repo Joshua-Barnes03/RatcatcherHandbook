@@ -67,10 +67,6 @@ nav {
 	height: 100%;
 }
 
-nav .linkButton {
-	z-index: 5;
-}
-
 ul {
   display: flex;
   flex-direction: row;
@@ -92,6 +88,19 @@ ul {
 
 h2 {
 	margin-bottom: 5px;
+}
+
+/*====================
+      Nav-Bar
+====================*/
+
+nav .linkButton {
+	z-index: 5;
+}
+
+nav a {
+	/* currently not working */
+	text-overflow: ellipsis;
 }
 
 /*====================
