@@ -14,7 +14,8 @@ const App = function() {
     <Router>
       <Box id="all" sx={{
         position: 'relative',
-        backgroundColor: 'var(--white)'
+        backgroundColor: 'var(--white)',
+        overflow: 'hidden'
       }}>
         <Box sx={{
           height: '100%',

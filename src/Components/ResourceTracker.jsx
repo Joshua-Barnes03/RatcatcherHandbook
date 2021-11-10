@@ -53,7 +53,7 @@ const ResourceTracker = function() {
       alignContent: 'center',
       width: '100%',
       position: 'absolute',
-      paddingTop: '10px'
+      paddingTop: '10px',
     }}>
       <Typography variant="h2" sx={{position: 'fixed'}}>Resource Tracker</Typography>
       <Box sx={{
