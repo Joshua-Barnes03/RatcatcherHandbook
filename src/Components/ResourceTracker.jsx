@@ -72,10 +72,11 @@ const ResourceTracker = function() {
         textAlign: 'center',
         paddingTop: '10px'
       }}>
-        <Box sx={{display: 'flex',
-        flexDirection: 'column',
-        justifyingContent: 'center',
-        alignContent: 'center'
+        <Box sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyingContent: 'center',
+          alignContent: 'center'
         }}>
           <Box id="trackerArea">
             {resources.map((resource, i) => {
