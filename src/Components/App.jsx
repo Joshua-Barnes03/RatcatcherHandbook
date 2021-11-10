@@ -13,7 +13,8 @@ const App = function() {
   return (
     <Router>
       <Box id="all" sx={{
-        position: 'relative'
+        position: 'relative',
+        backgroundColor: 'var(--white)'
       }}>
         <Box sx={{
           height: '100%',
@@ -23,9 +24,9 @@ const App = function() {
           backgroundColor: 'var(--pewter)'
         }}>
           <nav>
-            <Button component={Link} to="/" className="linkButton" sx={{color: 'var(--black)'}}>Home</Button>
-            <Button component={Link} to="/resource-tracker" className="linkButton" sx={{color: 'var(--black)'}}>Resource Tracker</Button>
-            <Button component={Link} to="/about" className="linkButton" sx={{color: 'var(--black)'}}>About</Button>
+            <Button component={Link} to="/" className="linkButton" >Home</Button>
+            <Button component={Link} to="/resource-tracker" className="linkButton">Resource Tracker</Button>
+            <Button component={Link} to="/about" className="linkButton">About</Button>
           </nav>
         </Box>
         <Switch>
