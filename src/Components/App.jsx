@@ -80,7 +80,7 @@ function About() {
         justifyContent: 'center',
         alignContent: 'center',
         width: '45vw',
-        height: '100%',
+        height: '75%',
         textAlign: 'center',
         paddingTop: '10px'
       }}>
