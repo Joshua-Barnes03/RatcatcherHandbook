@@ -77,8 +77,8 @@ const ResourceTracker = function() {
             })}
           </div>
           <Box component="form" autoComplete="off" onSubmit={handleSubmit}>
-            <TextField required label="Add New Resource" placeholder="Dogs" size="small" onChange={handleResourceSubmit} value={newResource} name="NEWRESOURCE"></TextField>
-            <Button variant='outlined' type="submit" size="large">Create</Button>
+            <TextField required label="Add New Resource" placeholder="Dogs" size="small" onChange={handleResourceSubmit} value={newResource} name="NEWRESOURCE" sx={{marginRight: '5px'}}></TextField>
+            <Button variant='outlined' type="submit" size="large" sx={{marginLeft: '5px'}}>Create</Button>
           </Box>
         </Box>
         </ Box>
