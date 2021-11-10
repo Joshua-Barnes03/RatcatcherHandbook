@@ -33,16 +33,6 @@ const Resource = function({resource, deleteResource, i, trackResource}) {
       p: '2px'
     }}
     autoComplete="off">
-<<<<<<< HEAD
-      <TextField label="Name:" value={resource.name} size="small" onChange={handleChange} sx={{borderColor: 'var(--black)', color: 'var(--black)'}}></TextField>
-      <TextField label="Starting Value:" type="number" size="small" name={START} value={resource.start} onChange={handleChange} sx={{borderColor: 'var(--black)', color: 'var(--black)'}}/>
-      <TextField label="Input:" type="number" min="0" name={INPUT} value={resource.input} onChange={handleChange} size="small" sx={{borderColor: 'var(--black)', color: 'var(--black)'}}/>
-      <TextField label="Output:" type="number" min="0" name={OUTPUT} value={resource.output} onChange={handleChange} size="small" sx={{borderColor: 'var(--black)', color: 'var(--black)'}}/>
-      <TextField label="Number of Days:" type="number" min="0" name={DAYS} value={resource.days} onChange={handleChange} size="small" sx={{borderColor: 'var(--black)', color: 'var(--black)'}}/>
-      <Button variant="outlined" onClick={handleSubmit} sx={{borderColor: 'var(--black)', color: 'var(--black)'}}>Calculate</Button>
-      <TextField disabled label="Result:" size="small" value={resource.result} sx={{borderColor: 'var(--black)', color: 'var(--black)'}}/>
-      <Button variant="outlined" onClick={() => deleteResource(i)} sx={{borderColor: 'var(--black)', color: 'var(--black)'}}><DeleteOutlineIcon/></Button>
-=======
       <TextField label="Name:" value={resource.name} size="small" onChange={handleChange} sx={{color: 'var(--black)', borderColor: 'var(--black)'}}></TextField>
       <TextField label="Starting Value:" type="number" size="small" name={START} value={resource.start} onChange={handleChange} sx={{color: 'var(--black)', borderColor: 'var(--black)'}}/>
       <TextField label="Input:" type="number" min="0" name={INPUT} value={resource.input} onChange={handleChange} size="small" sx={{color: 'var(--black)', borderColor: 'var(--black)'}}/>
@@ -51,7 +41,6 @@ const Resource = function({resource, deleteResource, i, trackResource}) {
       <Button variant="outlined" onClick={handleSubmit} sx={{color: 'var(--black)', borderColor: 'var(--black)'}}>Calculate</Button>
       <TextField disabled label="Result:" size="small" value={resource.result} sx={{color: 'var(--black)', borderColor: 'var(--black)'}}/>
       <Button variant="outlined" onClick={() => deleteResource(i)} sx={{color: 'var(--black)', borderColor: 'var(--black)'}}><DeleteOutlineIcon/></Button>
->>>>>>> 01d43834f3ca7c52b4b1aeabba70da951c2c7df9
     </Box>
   );
 };

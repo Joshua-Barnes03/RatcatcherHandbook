@@ -9,6 +9,16 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+eval("function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;\nmodule.exports[\"default\"] = module.exports, module.exports.__esModule = true;\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@babel/runtime/helpers/interopRequireDefault.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@emotion/stylis/dist/stylis.browser.esm.js":
 /*!*****************************************************************!*\
   !*** ./node_modules/@emotion/stylis/dist/stylis.browser.esm.js ***!
@@ -171,6 +181,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/**\n * Determines if a given element is a DOM element name (i.e. not a React component).\n */\nfunction isHostComponent(element) {\n  return typeof element === 'string';\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (isHostComponent);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/core/utils/isHostComponent.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/icons-material/DeleteOutline.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@mui/icons-material/DeleteOutline.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ \"./node_modules/@babel/runtime/helpers/interopRequireDefault.js\");\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nexports[\"default\"] = void 0;\n\nvar _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ \"./node_modules/@mui/icons-material/utils/createSvgIcon.js\"));\n\nvar _jsxRuntime = __webpack_require__(/*! react/jsx-runtime */ \"./node_modules/react/jsx-runtime.js\");\n\nvar _default = (0, _createSvgIcon.default)( /*#__PURE__*/(0, _jsxRuntime.jsx)(\"path\", {\n  d: \"M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5-1-1h-5l-1 1H5v2h14V4z\"\n}), 'DeleteOutline');\n\nexports[\"default\"] = _default;\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/icons-material/DeleteOutline.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/icons-material/utils/createSvgIcon.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@mui/icons-material/utils/createSvgIcon.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", ({\n  value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n  enumerable: true,\n  get: function () {\n    return _utils.createSvgIcon;\n  }\n}));\n\nvar _utils = __webpack_require__(/*! @mui/material/utils */ \"./node_modules/@mui/material/utils/index.js\");\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/icons-material/utils/createSvgIcon.js?");
 
 /***/ }),
 
@@ -1043,6 +1075,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/@mui/material/utils/createChainedFunction.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@mui/material/utils/createChainedFunction.js ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/createChainedFunction.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/createChainedFunction.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@mui/material/utils/createSvgIcon.js":
 /*!***********************************************************!*\
   !*** ./node_modules/@mui/material/utils/createSvgIcon.js ***!
@@ -1065,6 +1108,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/@mui/material/utils/deprecatedPropType.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@mui/material/utils/deprecatedPropType.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/deprecatedPropType.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/deprecatedPropType.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@mui/material/utils/getScrollbarSize.js":
 /*!**************************************************************!*\
   !*** ./node_modules/@mui/material/utils/getScrollbarSize.js ***!
@@ -1073,6 +1127,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/getScrollbarSize.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/getScrollbarSize.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/utils/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@mui/material/utils/index.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"capitalize\": () => (/* reexport safe */ _capitalize__WEBPACK_IMPORTED_MODULE_0__[\"default\"]),\n/* harmony export */   \"createChainedFunction\": () => (/* reexport safe */ _createChainedFunction__WEBPACK_IMPORTED_MODULE_1__[\"default\"]),\n/* harmony export */   \"createSvgIcon\": () => (/* reexport safe */ _createSvgIcon__WEBPACK_IMPORTED_MODULE_2__[\"default\"]),\n/* harmony export */   \"debounce\": () => (/* reexport safe */ _debounce__WEBPACK_IMPORTED_MODULE_3__[\"default\"]),\n/* harmony export */   \"deprecatedPropType\": () => (/* reexport safe */ _deprecatedPropType__WEBPACK_IMPORTED_MODULE_4__[\"default\"]),\n/* harmony export */   \"isMuiElement\": () => (/* reexport safe */ _isMuiElement__WEBPACK_IMPORTED_MODULE_5__[\"default\"]),\n/* harmony export */   \"ownerDocument\": () => (/* reexport safe */ _ownerDocument__WEBPACK_IMPORTED_MODULE_6__[\"default\"]),\n/* harmony export */   \"ownerWindow\": () => (/* reexport safe */ _ownerWindow__WEBPACK_IMPORTED_MODULE_7__[\"default\"]),\n/* harmony export */   \"requirePropFactory\": () => (/* reexport safe */ _requirePropFactory__WEBPACK_IMPORTED_MODULE_8__[\"default\"]),\n/* harmony export */   \"setRef\": () => (/* reexport safe */ _setRef__WEBPACK_IMPORTED_MODULE_9__[\"default\"]),\n/* harmony export */   \"unstable_useEnhancedEffect\": () => (/* reexport safe */ _useEnhancedEffect__WEBPACK_IMPORTED_MODULE_10__[\"default\"]),\n/* harmony export */   \"unstable_useId\": () => (/* reexport safe */ _useId__WEBPACK_IMPORTED_MODULE_11__[\"default\"]),\n/* harmony export */   \"unsupportedProp\": () => (/* reexport safe */ _unsupportedProp__WEBPACK_IMPORTED_MODULE_12__[\"default\"]),\n/* harmony export */   \"useControlled\": () => (/* reexport safe */ _useControlled__WEBPACK_IMPORTED_MODULE_13__[\"default\"]),\n/* harmony export */   \"useEventCallback\": () => (/* reexport safe */ _useEventCallback__WEBPACK_IMPORTED_MODULE_14__[\"default\"]),\n/* harmony export */   \"useForkRef\": () => (/* reexport safe */ _useForkRef__WEBPACK_IMPORTED_MODULE_15__[\"default\"]),\n/* harmony export */   \"useIsFocusVisible\": () => (/* reexport safe */ _useIsFocusVisible__WEBPACK_IMPORTED_MODULE_16__[\"default\"]),\n/* harmony export */   \"unstable_ClassNameGenerator\": () => (/* reexport safe */ _mui_core__WEBPACK_IMPORTED_MODULE_17__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _capitalize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./capitalize */ \"./node_modules/@mui/material/utils/capitalize.js\");\n/* harmony import */ var _createChainedFunction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createChainedFunction */ \"./node_modules/@mui/material/utils/createChainedFunction.js\");\n/* harmony import */ var _createSvgIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./createSvgIcon */ \"./node_modules/@mui/material/utils/createSvgIcon.js\");\n/* harmony import */ var _debounce__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./debounce */ \"./node_modules/@mui/material/utils/debounce.js\");\n/* harmony import */ var _deprecatedPropType__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./deprecatedPropType */ \"./node_modules/@mui/material/utils/deprecatedPropType.js\");\n/* harmony import */ var _isMuiElement__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./isMuiElement */ \"./node_modules/@mui/material/utils/isMuiElement.js\");\n/* harmony import */ var _ownerDocument__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ownerDocument */ \"./node_modules/@mui/material/utils/ownerDocument.js\");\n/* harmony import */ var _ownerWindow__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ownerWindow */ \"./node_modules/@mui/material/utils/ownerWindow.js\");\n/* harmony import */ var _requirePropFactory__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./requirePropFactory */ \"./node_modules/@mui/material/utils/requirePropFactory.js\");\n/* harmony import */ var _setRef__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./setRef */ \"./node_modules/@mui/material/utils/setRef.js\");\n/* harmony import */ var _useEnhancedEffect__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./useEnhancedEffect */ \"./node_modules/@mui/material/utils/useEnhancedEffect.js\");\n/* harmony import */ var _useId__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./useId */ \"./node_modules/@mui/material/utils/useId.js\");\n/* harmony import */ var _unsupportedProp__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./unsupportedProp */ \"./node_modules/@mui/material/utils/unsupportedProp.js\");\n/* harmony import */ var _useControlled__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./useControlled */ \"./node_modules/@mui/material/utils/useControlled.js\");\n/* harmony import */ var _useEventCallback__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./useEventCallback */ \"./node_modules/@mui/material/utils/useEventCallback.js\");\n/* harmony import */ var _useForkRef__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./useForkRef */ \"./node_modules/@mui/material/utils/useForkRef.js\");\n/* harmony import */ var _useIsFocusVisible__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./useIsFocusVisible */ \"./node_modules/@mui/material/utils/useIsFocusVisible.js\");\n/* harmony import */ var _mui_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @mui/core */ \"./node_modules/@mui/core/generateUtilityClass/ClassNameGenerator.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/index.js?");
 
 /***/ }),
 
@@ -1106,6 +1171,39 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/ownerWindow.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/ownerWindow.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/utils/requirePropFactory.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@mui/material/utils/requirePropFactory.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/requirePropFactory.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/requirePropFactory.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/utils/setRef.js":
+/*!****************************************************!*\
+  !*** ./node_modules/@mui/material/utils/setRef.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/setRef.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/setRef.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/utils/unsupportedProp.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/@mui/material/utils/unsupportedProp.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/unsupportedProp.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/unsupportedProp.js?");
 
 /***/ }),
 
@@ -1150,6 +1248,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/useForkRef.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/useForkRef.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/material/utils/useId.js":
+/*!***************************************************!*\
+  !*** ./node_modules/@mui/material/utils/useId.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _mui_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mui/utils */ \"./node_modules/@mui/utils/esm/useId.js\");\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_mui_utils__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/material/utils/useId.js?");
 
 /***/ }),
 
@@ -1626,6 +1735,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/@mui/utils/esm/deprecatedPropType.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@mui/utils/esm/deprecatedPropType.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ deprecatedPropType)\n/* harmony export */ });\nfunction deprecatedPropType(validator, reason) {\n  if (false) {}\n\n  return (props, propName, componentName, location, propFullName) => {\n    const componentNameSafe = componentName || '<<anonymous>>';\n    const propFullNameSafe = propFullName || propName;\n\n    if (typeof props[propName] !== 'undefined') {\n      return new Error(`The ${location} \\`${propFullNameSafe}\\` of ` + `\\`${componentNameSafe}\\` is deprecated. ${reason}`);\n    }\n\n    return null;\n  };\n}\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/utils/esm/deprecatedPropType.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@mui/utils/esm/elementAcceptingRef.js":
 /*!************************************************************!*\
   !*** ./node_modules/@mui/utils/esm/elementAcceptingRef.js ***!
@@ -1736,6 +1856,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./node_modules/@mui/utils/esm/requirePropFactory.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@mui/utils/esm/requirePropFactory.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ requirePropFactory)\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ \"./node_modules/@babel/runtime/helpers/esm/extends.js\");\n\nfunction requirePropFactory(componentNameInError, Component) {\n  if (false) {} // eslint-disable-next-line react/forbid-foreign-prop-types\n\n\n  const prevPropTypes = Component ? (0,_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__[\"default\"])({}, Component.propTypes) : null;\n\n  const requireProp = requiredProp => (props, propName, componentName, location, propFullName, ...args) => {\n    const propFullNameSafe = propFullName || propName;\n    const defaultTypeChecker = prevPropTypes == null ? void 0 : prevPropTypes[propFullNameSafe];\n\n    if (defaultTypeChecker) {\n      const typeCheckerResult = defaultTypeChecker(props, propName, componentName, location, propFullName, ...args);\n\n      if (typeCheckerResult) {\n        return typeCheckerResult;\n      }\n    }\n\n    if (typeof props[propName] !== 'undefined' && !props[requiredProp]) {\n      return new Error(`The prop \\`${propFullNameSafe}\\` of ` + `\\`${componentNameInError}\\` can only be used together with the \\`${requiredProp}\\` prop.`);\n    }\n\n    return null;\n  };\n\n  return requireProp;\n}\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/utils/esm/requirePropFactory.js?");
+
+/***/ }),
+
 /***/ "./node_modules/@mui/utils/esm/setRef.js":
 /*!***********************************************!*\
   !*** ./node_modules/@mui/utils/esm/setRef.js ***!
@@ -1744,6 +1875,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ setRef)\n/* harmony export */ });\n/**\n * TODO v5: consider making it private\n *\n * passes {value} to {ref}\n *\n * WARNING: Be sure to only call this inside a callback that is passed as a ref.\n * Otherwise, make sure to cleanup the previous {ref} if it changes. See\n * https://github.com/mui-org/material-ui/issues/13539\n *\n * Useful if you want to expose the ref of an inner component to the public API\n * while still using it inside the component.\n * @param ref A ref callback or ref object. If anything falsy, this is a no-op.\n */\nfunction setRef(ref, value) {\n  if (typeof ref === 'function') {\n    ref(value);\n  } else if (ref) {\n    ref.current = value;\n  }\n}\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/utils/esm/setRef.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/utils/esm/unsupportedProp.js":
+/*!********************************************************!*\
+  !*** ./node_modules/@mui/utils/esm/unsupportedProp.js ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ unsupportedProp)\n/* harmony export */ });\nfunction unsupportedProp(props, propName, componentName, location, propFullName) {\n  if (false) {}\n\n  const propFullNameSafe = propFullName || propName;\n\n  if (typeof props[propName] !== 'undefined') {\n    return new Error(`The prop \\`${propFullNameSafe}\\` is not supported. Please remove it.`);\n  }\n\n  return null;\n}\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/utils/esm/unsupportedProp.js?");
 
 /***/ }),
 
@@ -1788,6 +1930,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ useForkRef)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _setRef__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./setRef */ \"./node_modules/@mui/utils/esm/setRef.js\");\n\n\nfunction useForkRef(refA, refB) {\n  /**\n   * This will create a new function if the ref props change and are defined.\n   * This means react will call the old forkRef with `null` and the new forkRef\n   * with the ref. Cleanup naturally emerges from this behavior.\n   */\n  return react__WEBPACK_IMPORTED_MODULE_0__.useMemo(() => {\n    if (refA == null && refB == null) {\n      return null;\n    }\n\n    return refValue => {\n      (0,_setRef__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(refA, refValue);\n      (0,_setRef__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(refB, refValue);\n    };\n  }, [refA, refB]);\n}\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/utils/esm/useForkRef.js?");
+
+/***/ }),
+
+/***/ "./node_modules/@mui/utils/esm/useId.js":
+/*!**********************************************!*\
+  !*** ./node_modules/@mui/utils/esm/useId.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ useId)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nfunction useId(idOverride) {\n  const [defaultId, setDefaultId] = react__WEBPACK_IMPORTED_MODULE_0__.useState(idOverride);\n  const id = idOverride || defaultId;\n  react__WEBPACK_IMPORTED_MODULE_0__.useEffect(() => {\n    if (defaultId == null) {\n      // Fallback to this default id when possible.\n      // Use the random value for client-side rendering only.\n      // We can't use it server-side.\n      setDefaultId(`mui-${Math.round(Math.random() * 1e9)}`);\n    }\n  }, [defaultId]);\n  return id;\n}\n\n//# sourceURL=webpack://ratcatcherhandbook/./node_modules/@mui/utils/esm/useId.js?");
 
 /***/ }),
 
@@ -1839,9 +1992,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!*************************************!*\
   !*** ./src/Components/Resource.jsx ***!
   \*************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: /home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/src/Components/Resource.jsx: Unexpected token (36:1)\\n\\n\\u001b[0m \\u001b[90m 34 |\\u001b[39m     }}\\u001b[0m\\n\\u001b[0m \\u001b[90m 35 |\\u001b[39m     autoComplete\\u001b[33m=\\u001b[39m\\u001b[32m\\\"off\\\"\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 36 |\\u001b[39m \\u001b[33m<<\\u001b[39m\\u001b[33m<<\\u001b[39m\\u001b[33m<<\\u001b[39m\\u001b[33m<\\u001b[39m \\u001b[33mHEAD\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m    |\\u001b[39m  \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 37 |\\u001b[39m       \\u001b[33m<\\u001b[39m\\u001b[33mTextField\\u001b[39m label\\u001b[33m=\\u001b[39m\\u001b[32m\\\"Name:\\\"\\u001b[39m value\\u001b[33m=\\u001b[39m{resource\\u001b[33m.\\u001b[39mname} size\\u001b[33m=\\u001b[39m\\u001b[32m\\\"small\\\"\\u001b[39m onChange\\u001b[33m=\\u001b[39m{handleChange} sx\\u001b[33m=\\u001b[39m{{borderColor\\u001b[33m:\\u001b[39m \\u001b[32m'var(--black)'\\u001b[39m\\u001b[33m,\\u001b[39m color\\u001b[33m:\\u001b[39m \\u001b[32m'var(--black)'\\u001b[39m}}\\u001b[33m>\\u001b[39m\\u001b[33m<\\u001b[39m\\u001b[33m/\\u001b[39m\\u001b[33mTextField\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 38 |\\u001b[39m       \\u001b[33m<\\u001b[39m\\u001b[33mTextField\\u001b[39m label\\u001b[33m=\\u001b[39m\\u001b[32m\\\"Starting Value:\\\"\\u001b[39m type\\u001b[33m=\\u001b[39m\\u001b[32m\\\"number\\\"\\u001b[39m size\\u001b[33m=\\u001b[39m\\u001b[32m\\\"small\\\"\\u001b[39m name\\u001b[33m=\\u001b[39m{\\u001b[33mSTART\\u001b[39m} value\\u001b[33m=\\u001b[39m{resource\\u001b[33m.\\u001b[39mstart} onChange\\u001b[33m=\\u001b[39m{handleChange} sx\\u001b[33m=\\u001b[39m{{borderColor\\u001b[33m:\\u001b[39m \\u001b[32m'var(--black)'\\u001b[39m\\u001b[33m,\\u001b[39m color\\u001b[33m:\\u001b[39m \\u001b[32m'var(--black)'\\u001b[39m}}\\u001b[33m/\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 39 |\\u001b[39m       \\u001b[33m<\\u001b[39m\\u001b[33mTextField\\u001b[39m label\\u001b[33m=\\u001b[39m\\u001b[32m\\\"Input:\\\"\\u001b[39m type\\u001b[33m=\\u001b[39m\\u001b[32m\\\"number\\\"\\u001b[39m min\\u001b[33m=\\u001b[39m\\u001b[32m\\\"0\\\"\\u001b[39m name\\u001b[33m=\\u001b[39m{\\u001b[33mINPUT\\u001b[39m} value\\u001b[33m=\\u001b[39m{resource\\u001b[33m.\\u001b[39minput} onChange\\u001b[33m=\\u001b[39m{handleChange} size\\u001b[33m=\\u001b[39m\\u001b[32m\\\"small\\\"\\u001b[39m sx\\u001b[33m=\\u001b[39m{{borderColor\\u001b[33m:\\u001b[39m \\u001b[32m'var(--black)'\\u001b[39m\\u001b[33m,\\u001b[39m color\\u001b[33m:\\u001b[39m \\u001b[32m'var(--black)'\\u001b[39m}}\\u001b[33m/\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n    at Object._raise (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:541:17)\\n    at Object.raiseWithData (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:534:17)\\n    at Object.raise (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:495:17)\\n    at Object.unexpected (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:3550:16)\\n    at Object.jsxParseIdentifier (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:7229:12)\\n    at Object.jsxParseNamespacedName (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:7239:23)\\n    at Object.jsxParseElementName (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:7250:21)\\n    at Object.jsxParseOpeningElementAt (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:7337:22)\\n    at Object.jsxParseElementAt (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:7370:33)\\n    at Object.jsxParseElementAt (/home/joshmbarnes/projects/ratcatchers/RatcatcherHandbook/node_modules/@babel/parser/lib/index.js:7386:32)\");\n\n//# sourceURL=webpack://ratcatcherhandbook/./src/Components/Resource.jsx?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mui/material/Box */ \"./node_modules/@mui/material/Box/Box.js\");\n/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Button */ \"./node_modules/@mui/material/Button/Button.js\");\n/* harmony import */ var _mui_material_TextField__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/TextField */ \"./node_modules/@mui/material/TextField/TextField.js\");\n/* harmony import */ var _mui_icons_material_DeleteOutline__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/icons-material/DeleteOutline */ \"./node_modules/@mui/icons-material/DeleteOutline.js\");\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\n\n\n\n\nvar NAME = 'name',\n    START = 'start',\n    INPUT = 'input',\n    OUTPUT = 'output',\n    DAYS = 'days',\n    RESULT = 'result';\n\nvar Resource = function Resource(_ref) {\n  var resource = _ref.resource,\n      deleteResource = _ref.deleteResource,\n      i = _ref.i,\n      trackResource = _ref.trackResource;\n\n  var handleChange = function handleChange(event) {\n    var key = event.target.name;\n\n    var temp = _objectSpread({}, resource);\n\n    temp[key] = parseInt(event.target.value);\n    trackResource(i, temp);\n  };\n\n  var handleSubmit = function handleSubmit(event) {\n    event.preventDefault();\n\n    var temp = _objectSpread({}, resource);\n\n    temp.result = resource.start + resource.input * resource.days - resource.output * resource.days;\n    temp.start = temp.result;\n    trackResource(i, temp);\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_Box__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    componenet: \"form\",\n    sx: {\n      boxShadow: '0 1px 5px -4px black',\n      display: 'flex',\n      flexDirection: 'row',\n      justifyContent: 'space-around',\n      marginBottom: '5px',\n      p: '2px'\n    },\n    autoComplete: \"off\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    label: \"Name:\",\n    value: resource.name,\n    size: \"small\",\n    onChange: handleChange,\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    label: \"Starting Value:\",\n    type: \"number\",\n    size: \"small\",\n    name: START,\n    value: resource.start,\n    onChange: handleChange,\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    label: \"Input:\",\n    type: \"number\",\n    min: \"0\",\n    name: INPUT,\n    value: resource.input,\n    onChange: handleChange,\n    size: \"small\",\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    label: \"Output:\",\n    type: \"number\",\n    min: \"0\",\n    name: OUTPUT,\n    value: resource.output,\n    onChange: handleChange,\n    size: \"small\",\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    label: \"Number of Days:\",\n    type: \"number\",\n    min: \"0\",\n    name: DAYS,\n    value: resource.days,\n    onChange: handleChange,\n    size: \"small\",\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_Button__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n    variant: \"outlined\",\n    onClick: handleSubmit,\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }, \"Calculate\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    disabled: true,\n    label: \"Result:\",\n    size: \"small\",\n    value: resource.result,\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_material_Button__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n    variant: \"outlined\",\n    onClick: function onClick() {\n      return deleteResource(i);\n    },\n    sx: {\n      color: 'var(--black)',\n      borderColor: 'var(--black)'\n    }\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_mui_icons_material_DeleteOutline__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null)));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Resource);\n\n//# sourceURL=webpack://ratcatcherhandbook/./src/Components/Resource.jsx?");
 
 /***/ }),
 
