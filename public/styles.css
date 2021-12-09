@@ -51,10 +51,20 @@ table {
       General
 ====================*/
 
+:root {
+	--pewter: #8D9797;
+	--white: #E5E8E8;
+	--gunmetal: #4E545C;
+	--black: #000401;
+}
+
 nav {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+	padding-left: 10px;
+	/* box-shadow: 1px 0 5px -5px black; */
+	height: 100%;
 }
 
 ul {
@@ -62,6 +72,55 @@ ul {
   flex-direction: row;
 }
 
+#app {
+	height: 100vh;
+	width: 100vw;
+	max-height: 100vh;
+	max-width: 100vw;
+	background-color: var(--white);
+	margin: 0;
+}
+
+#all {
+	height: 100%;
+	width: 100%;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
+/*====================
+      Nav-Bar
+====================*/
+
+nav .linkButton {
+	z-index: 5;
+}
+
+nav a {
+	/* currently not working */
+	text-overflow: ellipsis;
+}
+
 /*====================
   Resource Tracker
 ====================*/
+
+#resourceTracker {
+	height: 100%;
+	width: 100%;
+}
+
+#trackerArea {
+	padding: 1px;
+}
+
+/*====================
+       About
+====================*/
+
+#aboutPage {
+	height: 100%;
+	width: 100%;
+}
