@@ -4,10 +4,13 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import { Typography, Alert } from '@mui/material';
+const localStorage = window.localStorage;
 
 const ResourceTracker = function() {
 
-  const [resources, setResources] = useState([]);
+  let storage = JSON.parse(localStorage.getItem('resources'));
+  if (!Array.isArray(storage)) {storage = []};
+  const [resources, setResources] = useState(storage);
   const [newResource, setNewResource] = useState('');
 
   const handleResourceSubmit = (event) => {
@@ -17,7 +20,7 @@ const ResourceTracker = function() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (resources.length < 10) {
-      var temp = resources.slice();
+      let temp = resources.slice();
       temp.push(
         {
           name: newResource,
@@ -36,20 +39,21 @@ const ResourceTracker = function() {
     }
   }
 
-  useEffect(() => {
-  }, [resources])
-
   const deleteResource = (index) => {
-    var temp = resources.slice();
+    let temp = resources.slice();
     temp.splice(index, 1);
     setResources(temp);
   }
 
   const trackResource = (index, resource) => {
-    var temp = resources.slice();
+    let temp = resources.slice();
     temp[index] = resource;
     setResources(temp);
   }
+
+  useEffect(() => {
+    localStorage.setItem('resources', JSON.stringify(resources))
+  }, [resources])
 
   return (
     <Box id="resourceTracker" sx={{

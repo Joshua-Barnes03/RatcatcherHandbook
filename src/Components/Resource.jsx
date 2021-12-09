@@ -17,7 +17,7 @@ const Resource = function({resource, deleteResource, i, trackResource}) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    var temp = {...resource};
+    let temp = {...resource};
     temp.result = resource.start + (resource.input * resource.days) - (resource.output * resource.days);
     temp.start = temp.result;
     trackResource(i, temp);
